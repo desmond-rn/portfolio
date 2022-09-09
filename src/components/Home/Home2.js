@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 function Home2() {
   return (
@@ -16,40 +17,49 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A BIT <span className="green"> ABOUT </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with computer hardware and software at a young age, but ... Want the rest of my <span className="green"> origin story</span> ? 👉 TODO Link to FIRST EVER BLOG POST
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="green"> C/C++</b>
+              </i>,
+              <i>
+                <b className="green"> Python</b>
+              </i>, and
+              <i>
+                <b className="green"> Javascript</b>
+              </i>.
+              <br />
+              <br />
+              My main interest is building distributed algorithms for &nbsp;
+              <i>
+                <b className="green">High Performance Computing </b> using {" "}
+                <b className="green">
+                Physical Priors
+                </b> and {" "}
+                <b className="green">
+                Artificial Intelligence
+                </b>, namely {" "}
+                <b className="green">
+                Graph Neural Networks.
+                </b> 
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I also have a passion for developing Deep Learning models for <b className="green">Natural Language Processing</b>, together with web applications with modern Javascript libraries like
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
+                <b className="green">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  React.js
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; and
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="green"> Node.js</b>
+              </i>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,9 +72,19 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <strong className="green">connect </strong>with me
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="https://github.com/soumyajit4419"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGooglescholar />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/soumyajit4419"
