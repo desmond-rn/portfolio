@@ -23,19 +23,12 @@ function Home2() {
               I fell in love with computer hardware and software at a young age, but ... Want the rest of my <span className="green"> origin story</span> ? 👉 TODO Link to FIRST EVER BLOG POST
               <br />
               <br />I am fluent in classics like
-              <i>
-                <b className="green"> C/C++</b>
-              </i>,
-              <i>
-                <b className="green"> Python</b>
-              </i>, and
-              <i>
-                <b className="green"> Javascript</b>
-              </i>.
+                <b className="green"> C/C++</b>,
+                <b className="green"> Python</b>, and
+                <b className="green"> Javascript</b>.
               <br />
               <br />
               My main interest is building distributed algorithms for &nbsp;
-              <i>
                 <b className="green">High Performance Computing </b> using {" "}
                 <b className="green">
                 Physical Priors
@@ -46,20 +39,15 @@ function Home2() {
                 <b className="green">
                 Graph Neural Networks.
                 </b> 
-              </i>
               <br />
               <br />
               I also have a passion for developing Deep Learning models for <b className="green">Natural Language Processing</b>, together with web applications with modern Javascript libraries like
-              <i>
                 <b className="green">
                   {" "}
                   React.js
                 </b>
-              </i>
               &nbsp; and
-              <i>
-                <b className="green"> Node.js</b>
-              </i>.
+                <b className="green"> Node.js</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -70,14 +58,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1><span className="green">FIND</span> ME ON</h1>
             <p>
-              Feel free to <strong className="green">connect </strong>with me
+              Feel free to connect with me
             </p>
             <ul className="home-about-social-links">
             <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/desmond-rn"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/rdesnzoyem"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -107,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/roussel-desmond-nzoyem/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -117,7 +105,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/roussel_dn/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

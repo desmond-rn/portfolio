@@ -103,7 +103,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--imp-text-color-2) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -200,7 +200,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: var(--imp-text-color-2);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -287,17 +287,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: var(--imp-text-color-2);
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: var(--imp-text-color-2) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: var(--imp-text-color-2) !important;
 }
 
 @media (max-width: 767px) {
@@ -401,7 +401,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: var(--imp-text-color-2) !important;
 }
 
 /* --------- */
@@ -524,13 +524,13 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  background-color: var(--imp-text-color-2) !important;
   border-color: #623686 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: var(--imp-text-color-2) !important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {
@@ -561,7 +561,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(16, 107, 34, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -580,7 +580,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(30, 191, 142, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -733,7 +733,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: var(--imp-text-color-2) !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -741,7 +741,7 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
+  background-color: var(--imp-text-color-2) !important;
   border-color: #a24dd386 !important;
 }
 .fork-btn-inner::after {
