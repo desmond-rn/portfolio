@@ -1,12 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgOpenCollective, CgWindows } from "react-icons/cg";
+import { CgWindows } from "react-icons/cg";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
   SiNetlify,
   SiMicrosoftoffice,
   SiNvidia,

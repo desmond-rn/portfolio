@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,7 +20,7 @@ function Home2() {
               A BIT <span className="green"> ABOUT </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with computer hardware and software at a young age, but ... Want the rest of my <span className="green"> origin story</span> ? 👉 TODO Link to FIRST EVER BLOG POST
+              I fell in love with computer hardware and software at a young age, but ... Want the rest of my <span className="green"> origin story</span> ? 👉🏽 <a href="TODO:link to my blog website" target="_blank" rel="noreferrer"> Read my blog</a>.
               <br />
               <br />I am fluent in classics like
                 <b className="green"> C/C++</b>,

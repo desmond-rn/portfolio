@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I am a PhD student in computer science with a MSc in applied mathematics, working on ways to efficiently and responsibly leverage AI for HPC.
+            I am a PhD student in computer science at the University of Bristol. With a MSc in applied mathematics, I'm working on ways to efficiently and responsibly leverage AI for HPC.
             <br />
             <br />
             When I'm not doing research, you might catch me:
@@ -28,7 +28,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "green" }}>
+          <p style={{ color: "mediumseagreen" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Soumyajit</footer>
